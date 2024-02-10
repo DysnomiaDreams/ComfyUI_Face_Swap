@@ -6,22 +6,30 @@ Welcome to the ComfyUI Face Swap Workflow repository! Here, you'll find a collec
 
 You can access all the JSON workflows directly from this repository. [Click here](https://github.com/chronomustard/ComfyUI_Face_Swap/tree/master/json_workflow) to explore them. You can load the models by clicking "Load" in the ComfyUI menu.
 
-![image](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/cb8b0fb4-229b-4087-b1bc-004fb254ddf5)
+<p align="center">
+<img src="[http://some_place.com/image.png](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/cb8b0fb4-229b-4087-b1bc-004fb254ddf5)" />
+</p>
 
 **Note:** It is also recommended for you to install [ComfyUI manager](https://github.com/ltdrdata/ComfyUI-Manager) add-on to ease other model and node installations.
 
 ### Face Swap Only
-![Face Swap Only](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/05c71527-a0c1-4852-9f6a-9dd12872c403)
+<p align="center">
+<img src="[Face Swap Only](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/05c71527-a0c1-4852-9f6a-9dd12872c403)" />
+</p>
 
 This workflow is perfect for straightforward face swapping tasks. It's quick, efficient, and gets the job done with ease.
 
 ### Lightweight Face Swap and Generation
-![Lightweight Face Swap and Generation](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/21603e40-e046-40f9-bfa7-35e40b060a05)
+<p align="center">
+<img src="[Lightweight Face Swap and Generation](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/21603e40-e046-40f9-bfa7-35e40b060a05)" />
+</p>
 
 If you're looking for a balance between performance and quality, this workflow is the ideal choice. It offers both face swapping and generation capabilities without putting too much strain on your resources.
 
 ### Heavy Face Swap and Generation
-![Heavy Face Swap and Generation](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/89652f4b-538b-4c01-896f-02ae65bae67a)
+<p align="center">
+<img src="[Heavy Face Swap and Generation](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/89652f4b-538b-4c01-896f-02ae65bae67a)" />
+</p>
 
 For demanding projects that require top-notch results, this workflow is your go-to option. It combines advanced face swapping and generation techniques to deliver high-quality outcomes, ensuring a comprehensive solution for your needs.
 
