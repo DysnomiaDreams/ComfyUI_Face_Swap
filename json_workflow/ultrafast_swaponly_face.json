@@ -1,0 +1,481 @@
+{
+  "last_node_id": 29,
+  "last_link_id": 31,
+  "nodes": [
+    {
+      "id": 2,
+      "type": "LoadImage",
+      "pos": [
+        44,
+        560
+      ],
+      "size": {
+        "0": 296.9723205566406,
+        "1": 316.7939453125
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "00267-2816187543 (3).png",
+        "image"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "LoadImage",
+      "pos": [
+        3,
+        968
+      ],
+      "size": {
+        "0": 315,
+        "1": 314
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            25
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "19659-769977270-woman, flower dress, colorful, darl background,flower armor,green theme,exposure blend, medium shot, bokeh, (hdr (1).png",
+        "image"
+      ]
+    },
+    {
+      "id": 1,
+      "type": "ReActorFaceSwap",
+      "pos": [
+        431,
+        760
+      ],
+      "size": {
+        "0": 210,
+        "1": 422.15850830078125
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input_image",
+          "type": "IMAGE",
+          "link": 25
+        },
+        {
+          "name": "source_image",
+          "type": "IMAGE",
+          "link": 2
+        },
+        {
+          "name": "face_model",
+          "type": "FACE_MODEL",
+          "link": null,
+          "slot_index": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            3,
+            31
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "FACE_MODEL",
+          "type": "FACE_MODEL",
+          "links": null,
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ReActorFaceSwap"
+      },
+      "widgets_values": [
+        false,
+        "inswapper_128.onnx",
+        "retinaface_resnet50",
+        "GFPGANv1.4.pth",
+        1,
+        1,
+        "male",
+        "male",
+        "0",
+        "0",
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        436,
+        604
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            11
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UpscaleModelLoader"
+      },
+      "widgets_values": [
+        "4xFaceUpDAT.pth"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "PreviewImage",
+      "pos": [
+        100,
+        -285
+      ],
+      "size": {
+        "0": 700.0892333984375,
+        "1": 724.2181396484375
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 20,
+      "type": "PreviewImage",
+      "pos": [
+        853,
+        -286
+      ],
+      "size": {
+        "0": 700.0892333984375,
+        "1": 724.2181396484375
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 13
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 27,
+      "type": "PreviewImage",
+      "pos": [
+        1630,
+        -291
+      ],
+      "size": {
+        "0": 700.0892333984375,
+        "1": 724.2181396484375
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 28
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 13,
+      "type": "ImageUpscaleWithModel",
+      "pos": [
+        856,
+        601
+      ],
+      "size": {
+        "0": 241.79998779296875,
+        "1": 46
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "upscale_model",
+          "type": "UPSCALE_MODEL",
+          "link": 11
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 31,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            13,
+            23,
+            27
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageUpscaleWithModel"
+      }
+    },
+    {
+      "id": 26,
+      "type": "ImageCASharpening+",
+      "pos": [
+        1178,
+        599
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 27
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            28,
+            30
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageCASharpening+"
+      },
+      "widgets_values": [
+        0.8
+      ]
+    },
+    {
+      "id": 25,
+      "type": "SaveImage",
+      "pos": [
+        1143,
+        757
+      ],
+      "size": {
+        "0": 315,
+        "1": 270
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 23
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "before-sharpen"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "SaveImage",
+      "pos": [
+        1502,
+        755
+      ],
+      "size": {
+        "0": 315,
+        "1": 270
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 30
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "after-sharpen"
+      ]
+    }
+  ],
+  "links": [
+    [
+      2,
+      2,
+      0,
+      1,
+      1,
+      "IMAGE"
+    ],
+    [
+      3,
+      1,
+      0,
+      3,
+      0,
+      "IMAGE"
+    ],
+    [
+      11,
+      19,
+      0,
+      13,
+      0,
+      "UPSCALE_MODEL"
+    ],
+    [
+      13,
+      13,
+      0,
+      20,
+      0,
+      "IMAGE"
+    ],
+    [
+      23,
+      13,
+      0,
+      25,
+      0,
+      "IMAGE"
+    ],
+    [
+      25,
+      4,
+      0,
+      1,
+      0,
+      "IMAGE"
+    ],
+    [
+      27,
+      13,
+      0,
+      26,
+      0,
+      "IMAGE"
+    ],
+    [
+      28,
+      26,
+      0,
+      27,
+      0,
+      "IMAGE"
+    ],
+    [
+      30,
+      26,
+      0,
+      29,
+      0,
+      "IMAGE"
+    ],
+    [
+      31,
+      1,
+      0,
+      13,
+      1,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
