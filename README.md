@@ -1,25 +1,27 @@
 **ComfyUI Face Swap Workflow**
 =======
-This repository contains various workflows for face swapping, catering to different requirements. Whether you need a lightweight solution or a more intensive face generation and swap process, we've got you covered.
+Welcome to the ComfyUI Face Swap Workflow repository! Here, you'll find a collection of workflows designed for face swapping, tailored to meet various needs and preferences.
 
 ## JSON Workflows
+
+You can access all the JSON workflows directly from this repository. [Click here](https://github.com/chronomustard/ComfyUI_Face_Swap/tree/master/json_workflow) to explore them.
 
 ### Face Swap Only
 ![Face Swap Only](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/05c71527-a0c1-4852-9f6a-9dd12872c403)
 
-This workflow focuses solely on face swapping, ideal for quick and straightforward face exchange tasks.
+This workflow is perfect for straightforward face swapping tasks. It's quick, efficient, and gets the job done with ease.
 
 ### Lightweight Face Swap and Generation
 ![Lightweight Face Swap and Generation](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/21603e40-e046-40f9-bfa7-35e40b060a05)
 
-If you need a balance between performance and quality, this workflow offers both face swapping and generation capabilities without sacrificing too much on resources.
+If you're looking for a balance between performance and quality, this workflow is the ideal choice. It offers both face swapping and generation capabilities without putting too much strain on your resources.
 
 ### Heavy Face Swap and Generation
 ![Heavy Face Swap and Generation](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/89652f4b-538b-4c01-896f-02ae65bae67a)
 
-For demanding projects requiring high-quality results, this workflow combines face swapping and generation, ensuring a comprehensive solution for your needs.
+For demanding projects that require top-notch results, this workflow is your go-to option. It combines advanced face swapping and generation techniques to deliver high-quality outcomes, ensuring a comprehensive solution for your needs.
 
-Feel free to explore each workflow and choose the one that best fits your requirements. If you have any questions or suggestions, don't hesitate to reach out!
+Feel free to explore each workflow and select the one that best suits your requirements. If you have any questions, suggestions, or feedback, don't hesitate to reach out. We're here to help!
 
 **ComfyUI**
 =======
