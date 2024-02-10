@@ -1,4 +1,27 @@
-ComfyUI
+**ComfyUI Face Swap Workflow**
+
+This repository contains various workflows for face swapping, catering to different requirements. Whether you need a lightweight solution or a more intensive face generation and swap process, we've got you covered.
+
+## JSON Workflows
+
+### Face Swap Only
+![Face Swap Only](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/05c71527-a0c1-4852-9f6a-9dd12872c403)
+
+This workflow focuses solely on face swapping, ideal for quick and straightforward face exchange tasks.
+
+### Lightweight Face Swap and Generation
+![Lightweight Face Swap and Generation](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/21603e40-e046-40f9-bfa7-35e40b060a05)
+
+If you need a balance between performance and quality, this workflow offers both face swapping and generation capabilities without sacrificing too much on resources.
+
+### Heavy Face Swap and Generation
+![Heavy Face Swap and Generation](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/89652f4b-538b-4c01-896f-02ae65bae67a)
+
+For demanding projects requiring high-quality results, this workflow combines face swapping and generation, ensuring a comprehensive solution for your needs.
+
+Feel free to explore each workflow and choose the one that best fits your requirements. If you have any questions or suggestions, don't hesitate to reach out!
+
+**ComfyUI**
 =======
 The most powerful and modular stable diffusion GUI and backend.
 -----------
