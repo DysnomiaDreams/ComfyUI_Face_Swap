@@ -4,7 +4,11 @@ Welcome to the ComfyUI Face Swap Workflow repository! Here, you'll find a collec
 
 ## JSON Workflows
 
-You can access all the JSON workflows directly from this repository. [Click here](https://github.com/chronomustard/ComfyUI_Face_Swap/tree/master/json_workflow) to explore them.
+You can access all the JSON workflows directly from this repository. [Click here](https://github.com/chronomustard/ComfyUI_Face_Swap/tree/master/json_workflow) to explore them. You can load the models by clicking "Load" in the ComfyUI menu.
+
+![image](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/cb8b0fb4-229b-4087-b1bc-004fb254ddf5)
+
+**Note:** It is also recommended for you to install [ComfyUI manager](https://github.com/ltdrdata/ComfyUI-Manager) add-on to ease other model and node installations.
 
 ### Face Swap Only
 ![Face Swap Only](https://github.com/chronomustard/ComfyUI_Face_Swap/assets/70846916/05c71527-a0c1-4852-9f6a-9dd12872c403)
